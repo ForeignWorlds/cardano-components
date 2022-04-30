@@ -1,5 +1,6 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+Foreign Worlds is committed to providing building blocks for creators in order to expand the Cardano ecosystem and attract talent.
+
+This library of components can help bootstrap Cardano NFT projects. They contain open source components. Note that they are built using React and Chakra/Storybook.
 
 ## Available Scripts
 
