@@ -8,7 +8,7 @@ import {
   Image,
   Flex,
 } from "@chakra-ui/react";
-import { WalletContext } from "../Context/walletContext";
+import { WalletContext } from "../../Context/walletContext";
 
 type CardanoAPI = {
   [key: string]: unknown;
