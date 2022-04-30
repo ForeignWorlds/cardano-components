@@ -4,7 +4,7 @@ This library of components can help bootstrap Cardano NFT projects. They contain
 
 ## Available Scripts
 
-In the project directory, you can run:
+You will need to cd into cardano-components and then you can run:
 
 ### `yarn start`
 
