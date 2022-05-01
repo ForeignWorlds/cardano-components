@@ -1,4 +1,4 @@
-/// <reference path="../node_modules/@emurgo/cardano-serialization-lib-browser/cardano_serialization_lib.d.ts"/>
+/// <reference path="../../node_modules/@emurgo/cardano-serialization-lib-browser/cardano_serialization_lib.d.ts"/>
 class Loader {
   _wasm = null;
 

@@ -8,7 +8,7 @@ import {
   SetStateAction,
   useCallback,
 } from "react";
-import { getBench32FromHex } from "./cardano";
+import { getBench32FromHex } from "../Utils/cardano";
 
 const SELECTED_WALLET_KEY = "selectedWallet";
 
