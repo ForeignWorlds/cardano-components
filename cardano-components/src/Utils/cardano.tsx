@@ -1,4 +1,4 @@
-import Loader from "./Loader";
+import Loader from "./loader";
 
 const L = Loader;
 export const fromHex = (hex: string) => Buffer.from(hex, "hex");
