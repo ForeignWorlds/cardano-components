@@ -9,6 +9,9 @@ import {
   Flex,
 } from "@chakra-ui/react";
 import { WalletContext } from "../../Context/walletContext";
+import { ChevronDownIcon } from "@chakra-ui/icons";
+import { CheckIcon } from "@heroicons/react/solid";
+import Loading from "../Loading";
 
 type CardanoAPI = {
   [key: string]: unknown;
@@ -34,9 +37,9 @@ declare global {
 }
 
 const WalletSelector = ({
-  loading,
-  selectedIcon,
-  dropdownIcon,
+  loading = <Loading size="sm" />,
+  selectedIcon = <CheckIcon width={20} />,
+  dropdownIcon = <ChevronDownIcon />,
   ...rest
 }: Props) => {
   const { isLoading, walletsState, selectDefaultWallet, selectedWallet } =
