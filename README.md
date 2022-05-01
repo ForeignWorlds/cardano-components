@@ -9,6 +9,10 @@ This library of components can help bootstrap Cardano NFT projects. They contain
 
 You will need to cd into cardano-components and then you can run:
 
+### `yarn storybook`
+
+This will open up the available components in storybook app in a new browser window so that you can view functionality and looks of components
+
 ### `yarn start`
 
 Runs the app in the development mode.<br /> Open
