@@ -1,6 +1,3 @@
-# cardano-components
-Open Source Cardano Components 
-
 Foreign Worlds is committed to providing building blocks for creators in order to expand the Cardano ecosystem and attract talent.
 
 This library of components can help bootstrap Cardano NFT projects. They contain open source components. Note that they are built using React and Chakra/Storybook.
@@ -8,10 +5,6 @@ This library of components can help bootstrap Cardano NFT projects. They contain
 ## Available Scripts
 
 You will need to cd into cardano-components and then you can run:
-
-### `yarn storybook`
-
-This will open up the available components in storybook app in a new browser window so that you can view functionality and looks of components
 
 ### `yarn start`
 
